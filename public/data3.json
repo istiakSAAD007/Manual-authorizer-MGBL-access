@@ -1,0 +1,26 @@
+[
+    {
+      "TransactionRef": "112233445566",
+      "CompanyNumber": "112233445566",
+      "TotalTran": 5,
+      "TotalAmount": 100000,
+      "TransactionType": "MGBL to MGBL (Single)",
+      "Date": "21/08/2023"
+    },
+    {
+      "TransactionRef": "992233445566",
+      "CompanyNumber": "112233445566",
+      "TotalTran": 3,
+      "TotalAmount": 100000,
+      "TransactionType": "MGBL to MGBL (Single)",
+      "Date": "21/08/2023"
+    },
+    {
+      "TransactionRef": "772233445566",
+      "CompanyNumber": "112233445566",
+      "TotalTran": 4,
+      "TotalAmount": 100000,
+      "TransactionType": "MGBL to MGBL (Single)",
+      "Date": "21/08/2023"
+    }
+  ]

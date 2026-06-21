@@ -1,0 +1,18 @@
+[
+    {
+      "TransactionDate": "21/08/2023",
+      "CompanyAccount": "112233445566",
+      "TotalTransaction": 6,
+      "TotalAmount": 100000,
+      "RefNum": "112233445566",
+      "PaymentType": "BEFTN (bulk)"
+    },
+    {
+      "TransactionDate": "21/08/2023",
+      "CompanyAccount": "112233445566",
+      "TotalTransaction": 4,
+      "TotalAmount": 100000,
+      "RefNum": "112233445566",
+      "PaymentType": "BEFTN (bulk)"
+    }
+  ]

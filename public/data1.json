@@ -1,0 +1,26 @@
+[
+    {
+      "TransactionRef": "112233445566",
+      "CompanyNumber": "112233445566",
+      "TotalTran": 10000,
+      "TotalAmount": "1110.11",
+      "TransactionType": "BEFTN (bulk)",
+      "UploadDate": "21/08/2023"
+    },
+    {
+      "TransactionRef": "111133445566",
+      "CompanyNumber": "112233445566",
+      "TotalTran": 10000,
+      "TotalAmount": 11111111,
+      "TransactionType": "BEFTN (bulk)",
+      "UploadDate": "22/08/2023"
+    },
+    {
+      "TransactionRef": "113333445566",
+      "CompanyNumber": "112233445566",
+      "TotalTran": 10000,
+      "TotalAmount": 11111111,
+      "TransactionType": "BEFTN (bulk)",
+      "UploadDate": "23/08/2023"
+    }
+  ]
