@@ -47,7 +47,7 @@ function AddSignatory() {
           </div>
         </section>
 
-        <div className="border border-zinc-200 rounded-t shadow-sm mx-7 mb-5">
+        <div className="border border-zinc-200 rounded-t shadow-sm mx-7 mb-5 pb-5">
           <div className="bg-fuchsia-800 border-b border-zinc-200 px-4 py-2.5">
             <span className="text-sm font-medium text-white">
               Authentication Token
@@ -56,30 +56,37 @@ function AddSignatory() {
 
           {/*signatory  */}
           <section className="p-6 space-y-6">
-            <div className="overflow-x-auto grid grid-flow-col h-30">
-              <aside className="col-span-1 border border-gray-400 bg-gray-200 p-5 text-gray-600">
+            <div className="grid grid-flow-col h-30">
+              <aside className="col-span-1 border border-gray-300 bg-gray-200/70 p-5 text-gray-600">
                 SMS/Email OTP
               </aside>
-              <aside className="col-span-2 border border-gray-400 p-5">
-                <div>
-                  <p>Please select your OTP</p>
+              <aside className="col-span-2 border border-gray-300 p-5 space-y-4">
+                <div className="flex items-center text-xs text-gray-600 space-x-1.5">
+                  <p className="">Please Select Your OTP:</p>
                   <input type="radio" name="otp_type_sms" id="sms" />
                   <label htmlFor="sms">SMS</label>
 
                   <input type="radio" name="otp_type_sms" id="email" />
                   <label htmlFor="email">SMS</label>
                 </div>
+
                 <div>
-                  <button>Generate OTP</button>
+                  <Button>Generate OTP</Button>
                 </div>
-                <div>
-                  <label htmlFor="generateOTP">Token Code</label>
+
+                <div className="flex items-center space-x-3">
+                  <label
+                    htmlFor="generateOTP"
+                    className="text-xs text-gray-600"
+                  >
+                    Token Code
+                  </label>
                   <input
-                    type="text"
+                    type="password"
                     name="otp"
                     id="generateOTP"
                     placeholder="token"
-                    className="border border-gray-300"
+                    className="border border-gray-300 text-lg text-gray-700 rounded bg-transparent pl-3 w-40 transition duration-300 ease focus:outline-none focus:border-blue-400 focus:shadow-sm shadow-sm placeholder:text-base"
                   />
                 </div>
               </aside>
@@ -92,13 +99,13 @@ function AddSignatory() {
           <Button
             className="px-3.5 py-2.5"
             variant="primary"
-            label="Confirm"
+            label="Approve"
             onClick={() => navigate("/dashboard")}
           />
           <Button
             className="px-3.5 py-2.5"
             variant="danger"
-            label="Back"
+            label="Reject"
             onClick={() => {}}
           />
         </div>
