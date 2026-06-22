@@ -66,7 +66,7 @@ function App() {
               <Route path="approved" element={<ApprovePaymentHistory />} />
             </Route>
 
-            {/* Add signatory */}
+            {/* approve transaction */}
             <Route path="approve-otp" element={<ApproveOTP />} />
 
             <Route path="update-signatory" element={<SignatoryReset />} />

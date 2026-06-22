@@ -1,4 +1,6 @@
 function Table({ columns, data = [], renderActions, rowKey }) {
+  console.log(data)
+  
   return (
     <div className="overflow-x-auto bg-white rounded-md border border-gray-200 shadow-sm">
       <table className="min-w-full text-left text-sm whitespace-nowrap border-collapse">

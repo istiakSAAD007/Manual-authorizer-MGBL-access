@@ -1,0 +1,20 @@
+[
+  {
+    "TransactionRef": "112233445566",
+    "CompanyNumber": "112233445566",
+    "CompanyName": "United Savings",
+    "BeneficiaryName": "BULK Transaction, View details",
+    "TotalAmount": "11,000",
+    "Date": "13/08/2023",
+    "TransactionType": "BFTN (BULK)"
+  },
+  {
+    "TransactionRef": "092233445566",
+    "CompanyNumber": "112233445566",
+    "CompanyName": "United Savings",
+    "BeneficiaryName": "Rashed Hasan",
+    "TotalAmount": "200",
+    "Date": "09/07/2023",
+    "TransactionType": "BFTN (Single)"
+  }
+]

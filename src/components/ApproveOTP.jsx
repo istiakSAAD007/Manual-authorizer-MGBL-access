@@ -14,10 +14,17 @@ function AddSignatory() {
       </div>
     );
   if (error)
-    return <div className="p-6 text-red-500">Error loading data: {error}</div>;
+    return <div className="p-6 text-red-500">Error loading data: {error}</div>
 
   return (
     <div>
+      <div className="mb-10 flex flex-col gap-1">
+        <h1 className="text-3xl text-gray-700">Approve Transaction</h1>
+        <p className="text-gray-500 text-sm italic">
+          Waiting for your approval
+        </p>
+      </div>
+
       <div className="border border-zinc-200 rounded shadow-sm">
         <div className="bg-blue-200 border-b border-zinc-200 px-4 py-2.5">
           <span className="text-sm font-medium text-zinc-600">

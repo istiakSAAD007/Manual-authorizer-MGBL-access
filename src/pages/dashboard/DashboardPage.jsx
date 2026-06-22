@@ -50,7 +50,7 @@ function DashboardPage() {
       </div>
     );
   if (error)
-    return <div className="p-6 text-red-500">Error loading data: {error}</div>;
+    return <div className="p-6 text-red-500">Error loading data: {error}</div>
 
   return (
     <div className="w-full space-y-6">
