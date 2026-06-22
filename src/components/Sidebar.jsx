@@ -3,10 +3,9 @@ import {
   ChevronRight,
   CreditCard,
   FileText,
-  Landmark,
   LayoutDashboard,
   SquarePen,
-  Users,
+  Users
 } from "lucide-react";
 import { useState } from "react";
 import { Link, useLocation } from "react-router";
@@ -40,19 +39,6 @@ function Sidebar({ isOpen, setIsOpen }) {
         {
           name: "Approved Payment",
           path: "/dashboard/payment/approved-payment",
-          icon: <SquarePen size={16} />,
-        },
-      ],
-    },
-    // virtual account management
-    {
-      name: "Virtual Account Management",
-      path: "/dashboard/virtual",
-      icon: <Landmark size={18} />,
-      subItems: [
-        {
-          name: "Account",
-          path: "/dashboard/virtual/account-management",
           icon: <SquarePen size={16} />,
         },
       ],

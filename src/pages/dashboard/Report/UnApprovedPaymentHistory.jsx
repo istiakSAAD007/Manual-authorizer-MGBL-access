@@ -5,7 +5,7 @@ function UnApprovedPaymentHistory() {
   return (
     <div className="p-4 bg-gray-50 min-h-screen">
       {/* Page Title */}
-      <h2 className="text-3xl font-normal text-zinc-700 mb-8 tracking-tight">
+      <h2 className="text-3xl font-normal text-zinc-600 mb-8 tracking-tight">
         Unapproved Payment History
       </h2>
 
@@ -78,9 +78,9 @@ function UnApprovedPaymentHistory() {
 
         {/* use map method for loop the table row through api */}
         <div className="overflow-x-auto">
-          <table className="min-w-full text-left text-sm text-zinc-700 border-collapse">
+          <table className="min-w-full text-left text-sm text-zinc-600 border-collapse">
             <thead>
-              <tr className="bg-white border-b border-zinc-300 text-zinc-800 font-bold">
+              <tr className="bg-white border-b border-zinc-300 text-zinc-600 font-bold">
                 <th className="px-3 py-2.5 border-r border-zinc-200">
                   Transaction Date
                 </th>

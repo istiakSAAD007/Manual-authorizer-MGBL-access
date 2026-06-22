@@ -14,7 +14,6 @@ import UnAuthorizedPaymentHistory from "./pages/dashboard/Report/UnAuthorizedPay
 import VirtualAccountPaymentHistory from "./pages/dashboard/Report/VirtualAccountPaymentHistory";
 import VirtualAccountReport from "./pages/dashboard/Report/VirtualAccountReport";
 import Summary from "./pages/dashboard/users/Summary";
-import VirtualAccount from "./pages/dashboard/VirtualAccount/VirtualAccount";
 
 function App() {
   return (
@@ -33,17 +32,9 @@ function App() {
               <Route path="approved-payment" element={<ApprovedPayment />} />
             </Route>
 
-            {/* Virtual Account Routes */}
-            <Route path="virtual-account" element={<VirtualAccount />} />
-
             {/* User Summary */}
             <Route path="users">
               <Route path="summary" element={<Summary />} />
-            </Route>
-
-            {/* Virtual account */}
-            <Route path="virtual">
-              <Route path="account-management" element={<VirtualAccount />} />
             </Route>
 
             {/* Report Routes */}
